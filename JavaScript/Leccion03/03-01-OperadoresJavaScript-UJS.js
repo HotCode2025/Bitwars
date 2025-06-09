@@ -15,3 +15,11 @@ if( edad >= adulto ){
 else{
     console.log("Usted es una persona menor de edad")
 }
+
+// Hoy ya no se usa var, se utiliza let y const
+let nombre2 = "Pedro";
+console.log(nombre2);
+
+const apellido2 = "Lepes";
+//apellido2 = "Lepes"; una constante no puede ser modificada
+console.log(apellido2)
