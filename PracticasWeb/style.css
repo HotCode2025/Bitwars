@@ -1,0 +1,12 @@
+.navigation{
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+    justify-content: flex-end;
+    margin: 0 3rem;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
