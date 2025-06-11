@@ -78,6 +78,10 @@ a{
   font-size: large;
   margin: 8rem;
 }
+.main-container{
+  display: flex;
+  flex-direction: column;
+}
 
 
 /* Celular (Pantallas pequeñas, hasta 767px) */
