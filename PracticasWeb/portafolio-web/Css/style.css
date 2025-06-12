@@ -2,6 +2,7 @@
   --body-bg-color: rgb(43,43,70);
   --tex-color: white;
   --colorh1-color: rgb(215, 211, 211);
+  --fondo-proyectos: rgb(60,43,70);
 }
 body{
   background: var(--body-bg-color);
@@ -43,40 +44,9 @@ a{
     box-shadow: 0 0 0.5rem rgba(180, 180, 180, 0.5);
 }
 
-.sobremi{
-    display: flex;
-    justify-content: center;
-}
-.container-sobremi{
-    display: flex;
-    width: 50%;
-    padding: 2rem;
-    margin-top: 5rem;
-    line-height: 2.5rem;
-    font-size: large;
-    color: rgb(5, 44, 44);
-    gap: 5rem;
-    align-items: center;
-}
 .img-perfil{
   border-radius: 50%;
 
-}
-
-.experiencia, .estudios{
-  display: flex;
-  justify-content: center;
-  padding: 2rem;
-  color: azure;
-}
-
-.container-experiencia, .container-estudios{
-  width: 100%;
-  padding: 2rem;
-  margin-top: 5rem;
-  line-height: 2.5rem;
-  font-size: large;
-  margin: 8rem;
 }
 .main-container{
   display: flex;
@@ -94,24 +64,6 @@ a{
     gap: 1rem;
     align-items: center;
   }
-  .container-sobremi {
-    width: 100%;
-    padding: 1;
-    margin-top: 1rem; /* margen a lo alto */
-    line-height: 2.5rem; /* espaciado entre los párrafos del texto */
-    font-size: small; /* tamaño de la fuente */
-    flex-direction: column;
-  }
-  .container-experiencia, .container-estudios{
-    width: 100%;
-    margin: 0rem;
-  }
-  .experiencia, .estudios{
-    width: 100%;
-    padding: 1rem;
-    margin-top: 1rem;
-    font-size: small;
-  }
 }
 
 /* Tableta (Pantallas medianas, entre 768px y 1023px) */
@@ -122,9 +74,6 @@ a{
   .navigation {
     gap: 2rem;
     justify-content: center;
-  }
-  .experiencia, .estudios{
-    width: 75%;
   }
 }
 
@@ -137,8 +86,5 @@ a{
     gap: 3rem;
     justify-content: flex-end;
     margin: 0 3rem;
-  }
-  .experiencia, .estudios{
-    width: 75%;
   }
 }
