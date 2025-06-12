@@ -808,3 +808,152 @@ git checkout master
 
 git merge segunda #y terminamos con esto
 ```
+# Clase 10-A
+
+<br>
+Aqui estan todos los comandos de la decima clase:</br>
+
+```sh
+Cómo revertir un merge Si nos hemos equivocado y queremos cancelar el merge, debemos usar el siguiente comando:
+
+git merge --abort
+
+Conflictos en repositorios remotos Al trabajar con otras personas, es necesario utilizar un repositorio remoto.
+­
+-Para copiar el repositorio remoto al directorio de trabajo local, se utiliza el comando git clone , y para enviar cambios al repositorio remoto se utiliza git push.
+
+git clone enlace-ssh
+git fetch
+git push origin master
+git merge
+git pull origin master
+git commit -am"Este es un commit rápido"
+git branch #Vemos las ramas creadas y en cual estamos ubicados
+git branch second #Estamos creando una rama nueva llamada second
+git checkout second #Vamos a la rama second saliendo de master
+#Hacemos cambios en el código que estamos trabajando
+ctrl + s #Guardamos los cambios
+git add .
+git commit -m"Cambios en el archivo de trabajo"
+git push origin second
+git checkout master
+git merge second #Mergeamos los cambios a la rama master
+git push origin master
+
+-Para actualizar el repositorio local se hace uso del comando git fetch, luego se debe fusionar los datos traídos con los locales usando git merge.
+
+Para traer los datos y fusionarlos a la vez, en un solo comando, se usa git pull.
+
+­- Para crear commits rápidamente, fusionando git add y git commit -m "", usamos git commit -am "".
+
+­- Para generar nuevas ramas, hay que posicionarse sobre la rama que se desea copiar y utilizar el comando git branch .
+
+- Configuración muy importante para cambiar el nombre por default que recibe la rama principal (master)
+
+git config --global init.defaultBranch main  #A partir de este momento cada repositorio creado recibira el nombre main por default
+
+Para saltar entre ramas, se usa el comando git checkout
+
+­- Una vez realizado los cambios en la rama, estas deben fusionarse con git merge.
+
+El merge ocurre en la rama en la que se está posicionado. Por lo tanto, la rama a fusionar se transforma en la principal.
+
+Los merges también son commits.
+
+Los merges pueden generar conflictos, esto aborta la acción y pide que soluciones el problema manualmente, aceptando o rechazando los cambios que vienen.
+
+Repasa qué es un branch
+
+Sección Práctica
+
+#Hacemos cambios estando en la rama master, en el archivo de trabajo
+
+ctrl  + s
+
+git status
+
+git add .
+
+git commit -m"Aregando cambios nuevos al archivo de trabajo"
+
+git push origin master
+
+git log
+
+q     #Para seguir en la línea decomandos
+
+git checkout second #volvemos a la rama second
+
+git merge master #traemos los cambios desde la master y tenemos las dos ramas actualizadas
+
+git push origin second
+
+
+
+Ahora vamos a crear un conflicto para ver como salimos de el, vamos a cargar datos nuevos creando un archivo html estando en la rama second, y también vamos a hacer lo mismo estando en la master y veremos como lo solucionamos.
+
+
+Abrimos el archivo html y lo modificamos estando en la rama second, ctrl + s para guardar
+
+
+Luego commiteamos en la rama second y pasamos a la rama master, hacemos modificaciones también, guardar y commitear, hacer un merge estando en master: pongo en orden los comandos abajo.
+
+ctrl + s #Guardamos los cambios en la rama second, ponemos cambios en el archivo html
+
+git commit -am "Modifique el html y el color del texto" es un ejemplo
+
+git checkout master #Modificamos el html, ponemos código y ponemos texto blue
+
+ctrl + s #Guardamos los cambios
+
+git commit -am "Agregue información, cambie el código y puse todo el texto azul"
+
+git merge second #Hacemos un merge estando en master y veremos el conflicto
+
+
+
+Para solucionar el conflicto podemos abrir el archivo con el editor de texto y modificar lo que nos este señalando y guardamos, esto en el html, lo podemos hacer desde VSC seleccionando: el cambio entrante.
+
+
+Debemos ahora commitear estos cambios, abajo pongo los comandos.
+
+git status
+
+git commit -am "Solución de conflictos al mergear las ramas"
+
+git checkout second #Seguiremos con la versión anterior, porque el merge fue en master
+
+git merge master #Ahora pasamos los cambios a la rama second.
+```
+# Clase 10-B
+
+<br>
+Aqui estan todos los comandos de la decima clase:</br>
+
+```sh
+Las llaves públicas y privadas, conocidas también como cifrado asimétrico de un solo camino, sirven para mandar mensajes privados entre varios nodos con la lógica de que firmas tu mensaje con una llave pública vinculada con una llave privada que puede leer el mensaje.
+
+Las llaves públicas y privadas nos ayudan a cifrar y descifrar nuestros archivos de forma que los podamos compartir sin correr el riesgo de que sean interceptados por personas con malas intenciones.
+
+Cómo funciona un mensaje cifrado con llaves públicas y privadas Ambas personas deben crear su llave pública y privada.
+
+Ambas personas pueden compartir su llave pública a las otras partes (recuerda que esta llave es pública, no hay problema si la “interceptan”).
+
+La persona que quiere compartir un mensaje puede usar la llave pública de la otra persona para cifrar los archivos y asegurarse que solo puedan ser descifrados con la llave privada de la persona con la que queremos compartir el mensaje.
+
+El mensaje está cifrado y puede ser enviado a la otra persona sin problemas en caso de que los archivos sean interceptados.
+
+La persona a la que enviamos el mensaje cifrado puede emplear su llave privada para descifrar el mensaje y ver los archivos.
+
+Nota: puedes compartir tu llave pública, pero nunca tu llave privada.
+```
+
+
+# Clase 11
+
+<br>
+Aqui estan todos los comandos de la onceava clase:</br>
+
+```sh
+
+```
