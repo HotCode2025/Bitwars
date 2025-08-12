@@ -1,4 +1,5 @@
-# Ejercicio 7: Ingresar "N" enteros, visualizar la suma de los números pares de la lista, contar pares, y mostrar el promedio de los impares
+# Ejercicio 7: Ingresar "N" enteros, visualizar la suma de los números pares de
+#  la lista, contar pares, y mostrar el promedio de los impares
 
 pares = 0
 suma_pares = 0

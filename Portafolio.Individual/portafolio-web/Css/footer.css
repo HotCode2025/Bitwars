@@ -1,0 +1,101 @@
+/* Estilos generales para el footer */
+footer {
+  background-color: #2e2d3f; /* Fondo del footer en color gris oscuro */
+  color: #fff; /* Texto en color blanco */
+  padding: 20px 0; /* Espacio interno arriba y abajo */
+  text-align: center; /* Centrar el texto */
+}
+
+/* Contenedor principal del footer */
+.footer-container {
+  max-width: 1200px; /* Ancho máximo del contenedor */
+  margin: 0 auto; /* Centrar el contenedor horizontalmente */
+  display: flex; /* Usar flexbox para el layout */
+  flex-direction: column; /* Colocar los elementos en una columna */
+  align-items: center; /* Centrar los elementos horizontalmente */
+}
+
+/* Estilos para la sección de información del footer */
+.footer-info {
+  margin-bottom: 10px; /* Espacio debajo de la información */
+}
+
+/* Estilos para la sección de enlaces a redes sociales */
+.footer-social {
+  display: flex; /* Usar flexbox para los iconos de redes sociales */
+  justify-content: center; /* Centrar los iconos horizontalmente */
+  gap: 15px; /* Espacio entre los iconos */
+}
+
+/* Estilos para cada enlace de red social */
+.footer-social a {
+  display: inline-flex; /* Usar flexbox para centrar el contenido dentro del enlace */
+  align-items: center; /* Centrar verticalmente */
+  justify-content: center; /* Centrar horizontalmente */
+  width: 40px; /* Ancho del botón */
+  height: 40px; /* Altura del botón */
+  border-radius: 50%; /* Hacer los botones circulares */
+  background-color: #555; /* Fondo del botón en color gris medio */
+  transition: background-color 0.3s; /* Transición suave al cambiar el color de fondo */
+}
+
+/* Estilos para los botones de redes sociales al pasar el cursor */
+.footer-social a:hover {
+  background-color: #777; /* Cambiar el fondo a gris claro al pasar el cursor */
+}
+
+/* Estilos para los iconos SVG dentro de los enlaces */
+.footer-social svg {
+  width: 24px; /* Ancho del icono */
+  height: 24px; /* Altura del icono */
+  fill: #fff; /* Color del icono en blanco */
+}
+
+/* Estilos responsivos para pantallas de tamaño tablet y menores */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column; /* Mantener los elementos en una columna */
+    align-items: center; /* Centrar los elementos horizontalmente */
+  }
+
+  .footer-social {
+    flex-wrap: wrap; /* Permitir que los iconos se envuelvan en múltiples filas si es necesario */
+    gap: 10px; /* Espacio entre los iconos */
+  }
+
+  .footer-social a {
+    width: 35px; /* Reducir el ancho del botón */
+    height: 35px; /* Reducir la altura del botón */
+  }
+
+  .footer-social svg {
+    width: 20px; /* Reducir el ancho del icono */
+    height: 20px; /* Reducir la altura del icono */
+  }
+}
+
+/* Estilos responsivos para pantallas de tamaño móvil */
+@media (max-width: 480px) {
+  footer {
+    padding: 15px 0; /* Reducir el espaciado interno arriba y abajo */
+  }
+
+  .footer-info {
+    margin-bottom: 5px; /* Reducir el espacio debajo de la información */
+    font-size: 14px; /* Reducir el tamaño de la fuente */
+  }
+
+  .footer-social {
+    gap: 8px; /* Reducir el espacio entre los iconos */
+  }
+
+  .footer-social a {
+    width: 30px; /* Reducir aún más el ancho del botón */
+    height: 30px; /* Reducir aún más la altura del botón */
+  }
+
+  .footer-social svg {
+    width: 18px; /* Reducir aún más el ancho del icono */
+    height: 18px; /* Reducir aún más la altura del icono */
+  }
+}

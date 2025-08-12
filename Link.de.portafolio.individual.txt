@@ -1,0 +1,10 @@
+OPCION 1:
+
+file:///C:/Users/coloc/TecnicaturaGit/Portafolio%20Individual%20(PracticasWeb)/portafolio-web/index.html
+
+
+
+
+OPCION 2:
+
+https://portafolioweb-basico-valentincastillo.netlify.app/
