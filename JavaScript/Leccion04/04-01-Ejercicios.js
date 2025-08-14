@@ -34,7 +34,7 @@ function saludar2(){
     let nombre2 = "Ariel";
     console.log(nombre2);
 }
-console.log(nombre2);
+//console.log(nombre2);
 
 if(true){
     let edad2 = 33;

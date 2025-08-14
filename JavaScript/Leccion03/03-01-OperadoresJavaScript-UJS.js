@@ -16,6 +16,16 @@ else{
     console.log("Usted es una persona menor de edad")
 }
 
+//Ejercicio: Dentro de un rango
+let dentrorango = 10; //aqui vamos a ir cambiando el valor
+let valMin = 0, valMax = 10;
+if( dentrorango >= valMin && dentrorango <= valMax){
+    console.log("Esta dentro del rango establecido")
+}
+else{
+    console.log("Esta fuera del rango establecido")
+}
+
 // Hoy ya no se usa var, se utiliza let y const
 let nombre2 = "Pedro";
 console.log(nombre2);

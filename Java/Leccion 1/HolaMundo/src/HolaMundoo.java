@@ -216,7 +216,8 @@ public class HolaMundoo {
         var varD = !varC; //Aqui esta invirtiendo el valor
         System.out.println("varC = " + varC);
         System.out.println("varD = " + varD);
-        
+        */
+        /*
         //Operadore Unarios de Incremento: Preincremento
         var varE = 9; //Se va a modificar su valor
         var varF = ++varE; //Simbolo antes de la variable
@@ -238,10 +239,10 @@ public class HolaMundoo {
         
         //Postdecremento
         var varK = 8;
-        varL = varK--; //Primero el valor de la variable, luego queda el decremento
+        var varL = varK--; //Primero el valor de la variable, luego queda el decremento
         System.out.println("varK = " + varK); //Aca va a decrementar en 1
         System.out.println("varL = " + varL);
-         */
+       */  
  /*
         //Operadores de igualdad y Relacionales
         var aNum = 5;
@@ -277,7 +278,8 @@ public class HolaMundoo {
         else{
             System.out.println("Es menor de edad");
         }
-         */
+        */
+         
          /*
         //Operador Condicional And
         var valorA = 10;
@@ -336,7 +338,7 @@ public class HolaMundoo {
         System.out.println("El perímetro es: " + perimetro + " cm");
         */
 
-        
+        /*
         //Ejercicio 2 - Clase 8:  El mayor de dos números (Operador Ternario)
         var entrada = new Scanner(System.in);
         System.out.println("Digite un numero: ");
@@ -345,6 +347,7 @@ public class HolaMundoo {
         double numero2 = Double.parseDouble(entrada.nextLine());
         var resultado = (numero1 > numero2) ? "el primer numero es mayor que el segundo" : "el segundo numero es mayor que el primero";
         System.out.println("Resultado: " + resultado);
+*/
         
         //---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
     }
