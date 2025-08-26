@@ -1,4 +1,4 @@
-- **Nombre del grupo:** Bitwars
+## **Nombre del grupo:** Bitwars
 
 **Integrantes:**
 
