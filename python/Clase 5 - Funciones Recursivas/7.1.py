@@ -14,4 +14,4 @@ def multiplicar(*nums):
     return resultado
 
 # Llamar a la función
-multiplicar(2, 4, 2) 
+multiplicar(2, 4, 3) 

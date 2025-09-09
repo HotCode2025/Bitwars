@@ -14,5 +14,5 @@ def fahrenheitACelsius(f):
 
     print(f"{f}° grados Fahrenheit equivalen a {c}° grados Celsius")
 
-celsiusAFahrenheit(25)
-fahrenheitACelsius(77)
+celsiusAFahrenheit(30)
+fahrenheitACelsius(70)

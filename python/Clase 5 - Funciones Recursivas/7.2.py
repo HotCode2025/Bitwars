@@ -17,4 +17,4 @@ def listarTerminos(**terminos): # Diccionario de valores indefinidos
         print(f"{clave}: {valor}")
 
 listarTerminos(IDE = 'Integrated Development Environment', PK = 'Primary Key')
-listarTerminos(Nombre = 'Lionel Messi')
+listarTerminos(Nombre = 'Cristiano Ronaldo')

@@ -17,4 +17,4 @@ def hastaUno(n):
         hastaUno(n - 1)
     
     
-hastaUno(5)
+hastaUno(10)
