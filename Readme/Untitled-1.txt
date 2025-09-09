@@ -1,2 +1,0 @@
-escribimos nuestra primera linea en git
-segunda linea de texto
