@@ -1,0 +1,11 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text></help_text><element><id>UMLClass</id><coordinates><x>220</x><y>120</y><w>210</w><h>80</h></coordinates><panel_attributes>Persona
+--
+- nombre: str
+- apellido: str
+- edad: int
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>20</x><y>280</y><w>210</w><h>70</h></coordinates><panel_attributes>persona1: Persona
+--
+nombre: "Francesco"
+apellido: "Cornachione"
+edad: 19</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>120</x><y>190</y><w>230</w><h>110</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;90;210;10</additional_attributes></element></diagram>
