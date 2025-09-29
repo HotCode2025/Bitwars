@@ -22,7 +22,7 @@ class Persona2:
         return self._apellido
 
 
-# Si un parámetro no tiene método setter es read-only, no se puede modificar el atributo
+# Si un parámetro no tiene método setter es read-only (solo lectura), no se puede modificar el atributo
     @apellido.setter
     def apellido(self, apellido):
         self._apellido = apellido

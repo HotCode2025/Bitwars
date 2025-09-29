@@ -56,7 +56,7 @@ print(persona1.nombre)
 print(persona2.apellido)
 print(persona3.edad)
 
-# Mostrar detalles
+# Mostrar detalles con el método mostrar_detalles()
 persona1.mostrar_detalles()
 persona2.mostrar_detalles()
 persona3.mostrar_detalles()
