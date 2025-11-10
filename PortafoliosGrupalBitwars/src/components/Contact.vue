@@ -26,11 +26,11 @@ export default {
   data() {
     return {
       people: [
-        { name:'María José Sela', bio:'', img:'/src/assets/Foto1.jpg', whatsapp:'+542604320053', Gmail:'mselaalias@gmail.com', instagram:'maria_insta' },
-        { name:'Franchesco Cornachione', bio:'', img:'/src/assets/WhatsApp Image 2025-11-09 at 20.36.29.jpeg', whatsapp:'+542604631867', Gmail:'francescocornachione681@gmail.com', instagram:'franchesco_insta' },
-        { name:'Pablo Garcia', bio:'', img:'/src/assets/WhatsApp Image 2025-11-09 at 23.42.11.jpeg', whatsapp:'+542604617372', Gmail:'pablo.d.garcia21@gmail.com', instagram:'pablo_insta' },
-        { name:'Valentin Castillo', bio:'', img:'/src/assets/WhatsApp Image 2025-11-09 at 23.26.25.jpeg', whatsapp:'+542604038884', Gmail:'colocross97@gmail.com', instagram:'valentin_insta' },
-        { name:'Tomás Vilche', bio:'', img:'/src/assets/img_neon.png', whatsapp:'+542604267904', Gmail:'agustinvilchebaron@gmail.com', instagram:'vilche_tomas' }
+        { name:'María José Sela', bio:'', img:'/img/maria.jpg', whatsapp:'+542604320053', Gmail:'mselaalias@gmail.com', instagram:'maria_insta' },
+        { name:'Franchesco Cornachione', bio:'', img:'/img/franco.jpeg', whatsapp:'+542604631867', Gmail:'francescocornachione681@gmail.com', instagram:'franchesco_insta' },
+        { name:'Pablo Garcia', bio:'', img:'/img/pablo.jpeg', whatsapp:'+542604617372', Gmail:'pablo.d.garcia21@gmail.com', instagram:'pablo_insta' },
+        { name:'Valentin Castillo', bio:'', img:'/img/colo.jpeg', whatsapp:'+542604038884', Gmail:'colocross97@gmail.com', instagram:'valentin_insta' },
+        { name:'Tomás Vilche', bio:'', img:'/img/tomas.png', whatsapp:'+542604267904', Gmail:'agustinvilchebaron@gmail.com', instagram:'vilche_tomas' }
       ]
     }
   }
