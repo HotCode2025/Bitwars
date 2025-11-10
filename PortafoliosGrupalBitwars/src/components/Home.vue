@@ -13,7 +13,7 @@
         <div class="modal-content">
           <button class="close-btn" @click="closeModal">&times;</button>
           <img :src="selectedPerson.img" :alt="selectedPerson.name" class="modal-photo" />
-          <h2>{{selectedPerson.name}}</h2>
+          <h2>{{selectedPerson.name}}</h2>g
           <p>{{selectedPerson.role}}</p>
           <p>{{selectedPerson.bio}}</p>
         </div>
