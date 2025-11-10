@@ -27,11 +27,11 @@ export default {
   data() {
     return {
       people:[
-        { name:'María José Sela', role:'', bio:'María José Sela, 37 años, es una profesional residente en Malargüe, que fusiona su base como Ingeniera Química y Docente con la programación. Se encuentra cursando la Tecnicatura en Programación (UTN), enfocada en aplicar el rigor científico al desarrollo de sistemas', img:'/src/assets/Foto1.jpg' },
-        { name:'Franchesco Cornachione', role:'', bio:'Soy un Ingeniero de Datos apasionado por transformar datos en soluciones reales. Manejo herramientas como PySpark, Airflow, Power BI, DuckDB y AWS, siempre buscando optimizar pipelines y mejorar la calidad de los datos.', img:'/src/assets/WhatsApp Image 2025-11-09 at 20.36.29.jpeg' },
-        { name:'Pablo Garcia', role:'', bio:'Estudiante de Tecnicatura en Programación. Apasionado por el código , la tecnología y la resolución de problemas. Actualmente busco aplicar mis conocimientos y crecer profesionalmente en el desarrollo de software.', img:'/src/assets/WhatsApp Image 2025-11-09 at 23.42.11.jpeg' },
-        { name:'Valentin Castillo', role:'', bio:'Tecnicatura en Programación — UTN."Desarrollador y entusiasta del software, siempre explorando nuevas tecnologías y aprendiendo a crear soluciones eficientes."', img:'/src/assets/WhatsApp Image 2025-11-09 at 23.26.25.jpeg' },
-        { name:'Tomás Vilche', role:'', bio:'Tecnicatura en Programación — UTN 21 años . Ensambaldor de pc. Creador de contenido. Trader. Especialista en finzas digitales (Criptomonedas)', img:'/src/assets/img_neon.png' }
+        { name:'María José Sela', role:'', bio:'María José Sela, 37 años, es una profesional residente en Malargüe, que fusiona su base como Ingeniera Química y Docente con la programación. Se encuentra cursando la Tecnicatura en Programación (UTN), enfocada en aplicar el rigor científico al desarrollo de sistemas', img:'/src/assets/maria.jpg' },
+        { name:'Franchesco Cornachione', role:'', bio:'Soy un Ingeniero de Datos apasionado por transformar datos en soluciones reales. Manejo herramientas como PySpark, Airflow, Power BI, DuckDB y AWS, siempre buscando optimizar pipelines y mejorar la calidad de los datos.', img:'/src/assets/franco.jpeg' },
+        { name:'Pablo Garcia', role:'', bio:'Estudiante de Tecnicatura en Programación. Apasionado por el código , la tecnología y la resolución de problemas. Actualmente busco aplicar mis conocimientos y crecer profesionalmente en el desarrollo de software.', img:'/src/assets/pablo.jpeg' },
+        { name:'Valentin Castillo', role:'', bio:'Tecnicatura en Programación — UTN."Desarrollador y entusiasta del software, siempre explorando nuevas tecnologías y aprendiendo a crear soluciones eficientes."', img:'/src/assets/colo.jpeg' },
+        { name:'Tomás Vilche', role:'', bio:'Tecnicatura en Programación — UTN 21 años . Ensambaldor de pc. Creador de contenido. Trader. Especialista en finzas digitales (Criptomonedas)', img:'/src/assets/tomas.png' }
       ],
       selectedPerson: null
     }
